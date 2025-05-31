@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Navbar from '../components/Navbar'
+import HeroSection from "../components/HeroSection";
+import '../index.css';
 
 const Dashboard = () => {
   const [scrolled, setScrolled] = useState(false)
@@ -30,6 +32,7 @@ const Dashboard = () => {
         }`}
       >
         <Navbar />
+        <HeroSection />
       </div>
     </div>
   )
